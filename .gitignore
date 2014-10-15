@@ -1,0 +1,10 @@
+# IDE stuff etc
+.DS_Store
+/nbproject/
+.idea
+
+# Vendor libs
+vendor
+
+# Composer
+composer.lock

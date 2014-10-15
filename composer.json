@@ -1,0 +1,22 @@
+{
+    "name": "fog/fog",
+    "description": "Http client abstraction layer",
+    "type": "library",
+    "keywords": ["Http, client, rest"],
+    "homepage": "http://www.github.com/DusanKasan/Fog",
+    "authors": [
+        {
+            "name": "Dusan Kasan",
+            "email": "dusank@kasan.sk"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "guzzle/guzzle": "~3.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fog\\": "src/"
+        }
+    }
+}
