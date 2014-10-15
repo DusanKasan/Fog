@@ -2,20 +2,12 @@
 
 namespace Fog;
 
-use SplEnum;
+use Garoevans\PhpEnum\Reflection\Enum;
 
-class HttpMethod extends SplEnum
+class HttpMethod extends Enum
 {
     const PUT = 'PUT';
     const DELETE = 'DELETE';
     const POST = 'POST';
     const GET = 'GET';
-
-    /**
-     * @param string $value HttpMethod const
-     */
-    public function __construct($value)
-    {
-        parent::__construct($value, $strict = true);
-    }
 }
